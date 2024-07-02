@@ -1,0 +1,55 @@
+.G-container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 140px;
+    margin: 0 auto;
+}
+.G-btn button{
+    padding: 12px;
+    min-width: 180px;
+    border-radius: 10px;
+    background: linear-gradient(164deg, rgba(135,49,232,1) 0%, rgba(82,25,203,1) 35%, rgba(69,40,220,1) 100%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.G-main-title h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.G-bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.G-section-title h2{
+    font-family: 'GHEAHelveticaGeo';
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 8px;
+
+}
+.G-section-title h2:before{
+    position: absolute;
+    content: '';
+    background-color: #14288A;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 7px;
+    z-index: 1;
+}
+.G-section-title p{
+    color: #0B1029;
+    margin-top: 26px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+}
+.G-icon-30 {
+    font-size : 30px;
+}
